@@ -15,25 +15,25 @@ To integrate **Aiven Kafka** to `InfluxDB` and `Grafana` as easy as click the **
    
 2. After both running go to InfluxDB service Overview tab and scroll down. Click the **Manage Integrations** button in **Service integrations** section.
 
-3. Select **Metrics** and click on **Use Integration** button.
+3. Select **Metrics** and click on **Use Integration** button.<br/><br/> 
 ![Service integrations](image/11.png)
 
-4. Choose **Existing Service** and the service you want to receive from the list, in this case is Kafka.
+4. Choose **Existing Service** and the service you want to receive from the list, in this case is Kafka.<br/><br/> 
 ![Service integrations](image/16.png)
 
-5. Select **Dashboard** and click on **Use Integration** button.
+5. Select **Dashboard** and click on **Use Integration** button.<br/><br/> 
 ![Service integrations](image/12.png)
 
-6. Choose **Existing Service** and the service you want to receive from the list, in this case is Grafana.
+6. Choose **Existing Service** and the service you want to receive from the list, in this case is Grafana.<br/><br/> 
 ![Service integrations](image/13.png)
 
-7. At the Overview tab you can see both integration will be active.
+7. At the Overview tab you can see both integration will be active.<br/><br/> 
 ![Service integrations](image/14.png)
 
 8. Now You can go to Grafana services.
    
-9.  If you need to access the Grafana Dashboard from Public you can set it up by add the **Add configuration option** `public_access.grafana` on **Advanced Configuration**. Save Advanced Configuration.
+9.  If you need to access the Grafana Dashboard from Public you can set it up by add the **Add configuration option** `public_access.grafana` on **Advanced Configuration**. Save Advanced Configuration.<br/><br/> 
 ![Service integrations](image/17.png)
 
-10. You will see **Public** on **Connection information** and You visit newly setup **Grafana** using **Service URI** address and use `User` and `Password` provided.
+10. You will see **Public** on **Connection information** and You visit newly setup **Grafana** using **Service URI** address and use `User` and `Password` provided.<br/><br/> 
 ![Service integrations](image/15.png)

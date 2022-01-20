@@ -5,19 +5,19 @@ Fisrt thing first, we need to setup Aiven kafka to do this up and running.
 1. Go to https://console.aiven.io/signup for signing up
 2. After the signin procees go to your project dashboard
 3. Go to Services tab on the left side bar
-4. You will see red "Create a new service" button on the right.
+4. You will see red "Create a new service" button on the right.<br/><br/> 
 ![create a new service](image/1.png)
-5. click the red "Create a new service" it to go to see all Aiven available services. Select **Kafka**
+5. click the red "Create a new service" it to go to see all Aiven available services. Select **Kafka**<br/><br/> 
 ![service list](image/2.png)
-1. Scroll Down to **Select Cloud Service Provider**. Select one of the provider.
+1. Scroll Down to **Select Cloud Service Provider**. Select one of the provider.<br/><br/> 
 ![Cloud Service Provider](image/3.png)
-7. Scroll Down to **Select Service Cloud Region**. Select one of the Region.
+7. Scroll Down to **Select Service Cloud Region**. Select one of the Region.<br/><br/> 
 ![Service Cloud Region](image/4.png)
-1. Scroll Down to **Select Service Plan**. Select one of the Plan.
+1. Scroll Down to **Select Service Plan**. Select one of the Plan.<br/><br/> 
 ![Service Plan](image/5.png)
-9. Scroll Down to **Provide Service Name**. Edit the name.
+9. Scroll Down to **Provide Service Name**. Edit the name.<br/><br/> 
 ![Service Name](image/6.png)
-10. Last You will see on the right the detail list of the selection and you caan continue by pressing the **Create Service** button.
+10. Last You will see on the right the detail list of the selection and you caan continue by pressing the **Create Service** button.<br/><br/> 
 ![create service](image/7.png)
 
 Now your **Kafka services** will be rebuilding all 3 nodes *(blue dots)*. When you see all Dots turns into Green, the services are **Running**
@@ -28,9 +28,9 @@ In Order to access the service from your `http://localhost`, You need to add *Ad
 
 1. Click into your **Kafka Services**
 2. At the **Overview tab** Scroll down to the bottom aand You will see **Advanced Configuration** 
-3. Click **Add Configuration Option** and Select *`public_access.kafka`* and also *`kafka_authentication_methods.certificate`* and *`kafka.auto_create_topics_enable`* for development purposes.
+3. Click **Add Configuration Option** and Select *`public_access.kafka`* and also *`kafka_authentication_methods.certificate`* and *`kafka.auto_create_topics_enable`* for development purposes.<br/><br/> 
 ![Add Configuration Option](image/9.png)
-4. Scroll back to top of the page and You will see **Connection information** section
+4. Scroll back to top of the page and You will see **Connection information** section<br/><br/> 
 ![Connection information](image/10.png)
 5. Select **Public** and copy the information and download the *`Access Key`*, *`Access Certificate`*, *`CA Certificate`* 
 

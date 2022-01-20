@@ -1,0 +1,51 @@
+{
+    "development": {
+        "config_id": "development",
+        "app_name": "kods API",
+        "app_desc": "kods NodeJS API",
+        "node_port": 3000,
+        "kafka_dir":"/Users/budi/Documents/kafka_2.13-2.7.0/",
+        "jmx_ip": "localhost",
+        "jmx_port_broker": 9991,
+        "jmx_port_zookeeper": 9998,
+        "json_indentation": 4,
+        "broker_host": "127.0.0.1:9092",
+        "pg_port": 5432,
+        "pg_db": "kods_new",
+        "pg_user": "brainworx",
+        "pg_password": "Brainworx2020"
+        
+    },
+    "local": {
+        "config_id": "local",
+        "app_name": "kods API",
+        "app_desc": "kods NodeJS API",
+        "node_port": 3000,
+        "kafka_dir":"/Users/budi/Documents/kafka_2.13-2.7.0/",
+        "jmx_ip": "localhost",
+        "jmx_port_broker": 9991,
+        "jmx_port_zookeeper": 9998,
+        "json_indentation": 4,
+        "broker_host": "localhost:9092",
+        "pg_port": 5432,
+        "pg_db": "kods_new",
+        "pg_user": "budi",
+        "pg_password": ""
+    },
+    "production": {
+        "config_id": "production",
+        "app_name": "kods API",
+        "app_desc": "kods NodeJS API",
+        "node_port": 8080,
+        "kafka_dir":"/Users/budi/Documents/kafka_2.13-2.7.0/",
+        "jmx_ip": "localhost",
+        "jmx_port_broker": 9991,
+        "jmx_port_zookeeper": 9998,
+        "json_indentation": 4,
+        "broker_host": "127.0.0.1:9092",
+        "pg_port": 5432,
+        "pg_db": "kods_prod",
+        "pg_user": "kodsv2",
+        "pg_password": "kods2020"
+    }
+}

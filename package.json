@@ -1,0 +1,21 @@
+{
+  "name": "aiven",
+  "version": "0.0.1",
+  "description": "test shell js",
+  "scripts": {
+    "fix-memory-limit": "cross-env LIMIT=8192 increase-memory-limit",
+    "start": "node ./bin/start --max-old-space-size=8192"
+  },
+  "author": "Budi Kusuma Utama <bdkusuma@gmail.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "increase-memory-limit": "^1.0.3",
+    "kafka-node": "^5.0.0",
+    "request": "^2.88.0"
+  }
+}

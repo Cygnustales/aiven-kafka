@@ -2,17 +2,21 @@
 
 ### Install
 `npm install`
+
 *note: if you having trouble with node-gyp `error` on macOS, just run `node-gyp rebuild` after `npm install` (read **node-gyp error** section below)*
 
 ## Run Application
 `npm run start`
+
 The Application will run at http://localhost:3000
 *note: You can change the port number on `config/config.json` file*
 
 ## API
 ### Create Topic
 `method : PUT`
+
 `end point : /topic/create`
+
 Body :
 ```
 {
@@ -24,7 +28,9 @@ Body :
 
 ### Send Topic Data
 `method : POST`
+
 `end point : /topic/data`
+
 Body :
 ```
 {
@@ -36,11 +42,14 @@ Body :
 
 ### Topic List
 `method : GET`
+
 `end point : /topic/list`
 
 ### Topic Describe
 `method : POST`
+
 `end point : /topic/describe`
+
 Body :
 ```
 {
@@ -50,7 +59,9 @@ Body :
 
 ### View Topic Data
 `method : POST`
+
 `end point : /topic/message/`
+
 Body :
 ```
 {
@@ -73,5 +84,3 @@ Create file name `binding.gyp` at the `root` project and insert this inside the 
 }
 ```
 run `node-gyp rebuild`
-
-

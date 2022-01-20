@@ -66,6 +66,8 @@ Body :
 ```
 {
    "topic": "topic name",
+   "partition":0,
+   "offset":0,
 }
 ```
 
